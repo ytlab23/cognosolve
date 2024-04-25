@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import logo1 from "../assets/logo1.png";
 
 import { Link } from "react-scroll";
+import { navItems } from "../constants/index";
 
 // import icons from react icons
 import { GrLanguage } from "react-icons/gr";
@@ -32,14 +33,6 @@ const Navbar = () => {
     };
   }, []);
 
-  const navItems = [
-    { link: "Home", path: "home" },
-    { link: "Service", path: "service" },
-    { link: "About", path: "about" },
-    { link: "Product", path: "product" },
-    { link: "Testimonial", path: "testimonial" },
-    { link: "Blog", path: "blog" },
-  ];
   return (
     <header className=" bg-white md:bg-transparent fixed top-0 left-0 right-0">
       <nav

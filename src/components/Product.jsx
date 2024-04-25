@@ -1,11 +1,20 @@
 import React from "react";
-import product from "../assets/product.png";
-import brand from "../assets/brand.png";
 
 // motion
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+
+import {
+  product,
+  brand,
+  company1,
+  company2,
+  company3,
+  company4,
+  company5,
+  company6,
+} from "../constants/index";
 
 const Product = () => {
   return (
@@ -81,36 +90,12 @@ const Product = () => {
               </p>
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
-                  <img
-                    src="/src/assets/icons/company1.png"
-                    alt=""
-                    className="cursor-pointer"
-                  />
-                  <img
-                    src="/src/assets/icons/company2.png"
-                    alt=""
-                    className="cursor-pointer"
-                  />
-                  <img
-                    src="/src/assets/icons/company3.png"
-                    alt=""
-                    className="cursor-pointer"
-                  />
-                  <img
-                    src="/src/assets/icons/company4.png"
-                    alt=""
-                    className="cursor-pointer"
-                  />
-                  <img
-                    src="/src/assets/icons/company5.png"
-                    alt=""
-                    className="cursor-pointer"
-                  />
-                  <img
-                    src="/src/assets/icons/company6.png"
-                    alt=""
-                    className="cursor-pointer"
-                  />
+                  <img src={company1} alt="" className="cursor-pointer" />
+                  <img src={company2} alt="" className="cursor-pointer" />
+                  <img src={company3} alt="" className="cursor-pointer" />
+                  <img src={company4} alt="" className="cursor-pointer" />
+                  <img src={company5} alt="" className="cursor-pointer" />
+                  <img src={company6} alt="" className="cursor-pointer" />
                   <div className="flex gap-8 items-center">
                     <a
                       href="/"

@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
-// icons
-import company1 from "../assets/icons/company1.png";
-import company2 from "../assets/icons/company2.png";
-import company3 from "../assets/icons/company3.png";
-import company4 from "../assets/icons/company4.png";
-import company5 from "../assets/icons/company5.png";
-import company6 from "../assets/icons/company6.png";
-import company7 from "../assets/icons/company7.png";
-
-import membership from "../assets/icons/membership.png";
-import association from "../assets/icons/association.png";
-import machine from "../assets/icons/machine.png";
+import {
+  machine,
+  membership,
+  association,
+  company1,
+  company2,
+  company3,
+  company4,
+  company5,
+  company6,
+  company7,
+} from "../constants/index";
 
 const Services = () => {
   const services = [

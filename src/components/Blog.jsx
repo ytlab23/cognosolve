@@ -4,25 +4,9 @@ import React from "react";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+import { blogs } from "../constants/index";
 
 const Blog = () => {
-  const blogs = [
-    {
-      id: 1,
-      title: "Unlocking AI Insights for Business Growth",
-      image: "/src/assets/blog1.png",
-    },
-    {
-      id: 2,
-      title: "Maximizing Data Analytics for Strategic Decision Making",
-      image: "/src/assets/blog2.png",
-    },
-    {
-      id: 3,
-      title: "Implementing Cutting-Edge Machine Learning Solutions",
-      image: "/src/assets/blog3.png",
-    },
-  ];
   return (
     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12" id="blog">
       <motion.div
