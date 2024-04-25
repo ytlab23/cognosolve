@@ -41,7 +41,7 @@ const Blog = () => {
               className="mx-auto hover:scale-95 transition-all duration-300"
             />
 
-            <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute -bottom-12 left-0 right-0">
+            <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto relative">
               <h3 className="mb-3 text-neutralGrey font-semibold">
                 {blog.title}
               </h3>
@@ -49,6 +49,7 @@ const Blog = () => {
                 <a
                   href="/"
                   className="font-bold text-brandPrimary hover:text-neutralBlack"
+                  style={{ paddingBottom: "20px" }} // Padding ekleme
                 >
                   Read More
                   <svg
