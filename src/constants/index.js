@@ -6,21 +6,26 @@ export const navItems = [
   { link: "Testimonial", path: "testimonial" },
   { link: "Blog", path: "blog" },
 ];
+
+import blog1 from "../assets/blog1.png";
+import blog2 from "../assets/blog2.png";
+import blog3 from "../assets/blog3.png";
+
 export const blogs = [
   {
     id: 1,
     title: "Unlocking AI Insights for Business Growth",
-    image: "/src/assets/blog1.png",
+    image: blog1,
   },
   {
     id: 2,
     title: "Maximizing Data Analytics for Strategic Decision Making",
-    image: "/src/assets/blog2.png",
+    image: blog2,
   },
   {
     id: 3,
     title: "Implementing Cutting-Edge Machine Learning Solutions",
-    image: "/src/assets/blog3.png",
+    image: blog3,
   },
 ];
 
