@@ -59,6 +59,10 @@ import company7 from "../assets/icons/company7.png";
 import membership from "../assets/icons/membership.png";
 import association from "../assets/icons/association.png";
 import machine from "../assets/icons/machine.png";
+import click from "../assets/icons/click.png";
+import payments from "../assets/icons/payments.png";
+import group from "../assets/icons/group.png";
+import cooperate from "../assets/icons/cooperate.png";
 
 export {
   brand,
@@ -73,4 +77,8 @@ export {
   membership,
   association,
   machine,
+  click,
+  group,
+  payments,
+  cooperate,
 };
