@@ -5,9 +5,6 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 import {
-  machine,
-  membership,
-  association,
   company1,
   company2,
   company3,
@@ -17,30 +14,9 @@ import {
   company7,
 } from "../constants/index";
 
+import { services } from "../constants/index";
+
 const Services = () => {
-  const services = [
-    {
-      id: 1,
-      title: "AI Strategy Development",
-      decription:
-        "We algorithmically analyze market trends, competition dynamics, and internal capabilities to prescribe optimal AI integration pathways, ensuring future-proof operations.",
-      image: membership,
-    },
-    {
-      id: 2,
-      title: "Data Analytics & Insights",
-      decription:
-        "Our AI-driven analytics engines parse, correlate, and distill data troves, illuminating hidden patterns and trends for strategic foresight and operational excellence.",
-      image: association,
-    },
-    {
-      id: 3,
-      title: "Machine Learning Solutions",
-      decription:
-        "From hyperparameter tuning to ensemble learning, our AI architects engineer scalable, adaptable models, catalyzing automated decision-making and innovation acceleration.",
-      image: machine,
-    },
-  ];
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="service">
       <motion.div
@@ -57,13 +33,22 @@ const Services = () => {
           We have been working with some Fortune 500+ clients
         </p>
         <div className="my-12 flex flex-wrap justify-between items-center gap-8 ">
-          <img src={company1} alt="Company1" />
-          <img src={company2} alt="Company2" />
-          <img src={company3} alt="Company3" />
-          <img src={company4} alt="Company4" />
-          <img src={company5} alt="Company5" />
-          <img src={company6} alt="Company6" />
-          <img src={company7} alt="Company7" />
+          {[
+            company1,
+            company2,
+            company3,
+            company4,
+            company5,
+            company6,
+            company7,
+          ].map((company, index) => (
+            <img
+              key="index"
+              src={company}
+              alt={`${index + 1}`}
+              className="cursor-pointer"
+            />
+          ))}
         </div>
       </motion.div>
 

@@ -90,12 +90,21 @@ const Product = () => {
               </p>
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
-                  <img src={company1} alt="" className="cursor-pointer" />
-                  <img src={company2} alt="" className="cursor-pointer" />
-                  <img src={company3} alt="" className="cursor-pointer" />
-                  <img src={company4} alt="" className="cursor-pointer" />
-                  <img src={company5} alt="" className="cursor-pointer" />
-                  <img src={company6} alt="" className="cursor-pointer" />
+                  {[
+                    company1,
+                    company2,
+                    company3,
+                    company4,
+                    company5,
+                    company6,
+                  ].map((companyLogo, index) => (
+                    <img
+                      key={index}
+                      src={companyLogo}
+                      alt={`Company ${index + 1}`}
+                      className="cursor-pointer"
+                    />
+                  ))}
                   <div className="flex gap-8 items-center">
                     <a
                       href="/"

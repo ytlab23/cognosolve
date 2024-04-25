@@ -23,6 +23,30 @@ export const blogs = [
     image: "/src/assets/blog3.png",
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    title: "AI Strategy Development",
+    decription:
+      "We algorithmically analyze market trends, competition dynamics, and internal capabilities to prescribe optimal AI integration pathways, ensuring future-proof operations.",
+    image: membership,
+  },
+  {
+    id: 2,
+    title: "Data Analytics & Insights",
+    decription:
+      "Our AI-driven analytics engines parse, correlate, and distill data troves, illuminating hidden patterns and trends for strategic foresight and operational excellence.",
+    image: association,
+  },
+  {
+    id: 3,
+    title: "Machine Learning Solutions",
+    decription:
+      "From hyperparameter tuning to ensemble learning, our AI architects engineer scalable, adaptable models, catalyzing automated decision-making and innovation acceleration.",
+    image: machine,
+  },
+];
 import brand from "../assets/brand.png";
 import product from "../assets/product.png";
 import company1 from "../assets/icons/company1.png";
