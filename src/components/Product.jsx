@@ -1,6 +1,6 @@
 import React from "react";
 import product from "../assets/product.png";
-import Maecenas from "../assets/maecenas.png";
+import brand from "../assets/brand.png";
 
 // motion
 import { motion } from "framer-motion";
@@ -58,7 +58,7 @@ const Product = () => {
       >
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <div className="md:w-1/3">
-            <img src={Maecenas} alt="" />
+            <img src={brand} alt="" />
           </div>
 
           {/* stats */}

@@ -4,6 +4,19 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
+// icons
+import company1 from "../assets/icons/company1.png";
+import company2 from "../assets/icons/company2.png";
+import company3 from "../assets/icons/company3.png";
+import company4 from "../assets/icons/company4.png";
+import company5 from "../assets/icons/company5.png";
+import company6 from "../assets/icons/company6.png";
+import company7 from "../assets/icons/company7.png";
+
+import membership from "../assets/icons/membership.png";
+import association from "../assets/icons/association.png";
+import machine from "../assets/icons/machine.png";
+
 const Services = () => {
   const services = [
     {
@@ -11,21 +24,21 @@ const Services = () => {
       title: "AI Strategy Development",
       decription:
         "We algorithmically analyze market trends, competition dynamics, and internal capabilities to prescribe optimal AI integration pathways, ensuring future-proof operations.",
-      image: "/src/assets/icons/membership.png",
+      image: membership,
     },
     {
       id: 2,
       title: "Data Analytics & Insights",
       decription:
         "Our AI-driven analytics engines parse, correlate, and distill data troves, illuminating hidden patterns and trends for strategic foresight and operational excellence.",
-      image: "/src/assets/icons/association.png",
+      image: association,
     },
     {
       id: 3,
       title: "Machine Learning Solutions",
       decription:
         "From hyperparameter tuning to ensemble learning, our AI architects engineer scalable, adaptable models, catalyzing automated decision-making and innovation acceleration.",
-      image: "/src/assets/icons/group-club.png",
+      image: machine,
     },
   ];
   return (
@@ -44,13 +57,13 @@ const Services = () => {
           We have been working with some Fortune 500+ clients
         </p>
         <div className="my-12 flex flex-wrap justify-between items-center gap-8 ">
-          <img src="src/assets/icons/company1.png" alt="" />
-          <img src="src/assets/icons/company2.png" alt="" />
-          <img src="src/assets/icons/company3.png" alt="" />
-          <img src="src/assets/icons/company4.png" alt="" />
-          <img src="src/assets/icons/company5.png" alt="" />
-          <img src="src/assets/icons/company6.png" alt="" />
-          <img src="src/assets/icons/company7.png" alt="" />
+          <img src={company1} alt="Company1" />
+          <img src={company2} alt="Company2" />
+          <img src={company3} alt="Company3" />
+          <img src={company4} alt="Company4" />
+          <img src={company5} alt="Company5" />
+          <img src={company6} alt="Company6" />
+          <img src={company7} alt="Company7" />
         </div>
       </motion.div>
 

@@ -24,7 +24,7 @@ const Blog = () => {
     },
   ];
   return (
-    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12" id="faq">
+    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12" id="blog">
       <motion.div
         variants={fadeIn("left", 0.2)}
         initial="hidden"
