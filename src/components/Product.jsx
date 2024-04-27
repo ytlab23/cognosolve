@@ -67,27 +67,32 @@ const Product = () => {
           <div className="md:w-2/3">
             <div>
               <p className="text-sm md:text-base text-neutralGrey mb-10 leading-6">
-                Working with Cognosolve has revolutionized our operations. Their
-                advanced AI solutions have not only streamlined our processes
-                but have also provided deep analytical insights essential for
-                strategic decision-making. Their tools have improved our market
-                trend predictions and responsiveness to industry dynamics. The
-                Cognosolve team has shown remarkable expertise and dedication.
-                Their personalized approach ensures that their solutions are
-                perfectly suited to our business needs, significantly boosting
-                our productivity and efficiency.
+                Partnering with our company has been transformative for
+                businesses seeking to integrate AI seamlessly into their
+                operations. Our advanced solutions in AI strategy development
+                not only streamline processes but also deliver deep analytical
+                insights crucial for strategic decision-making. We specialize in
+                algorithmically analyzing market trends and internal
+                capabilities to develop tailored AI pathways that ensure
+                future-proof operations. Our data analytics and insights
+                services leverage AI-driven engines to parse and correlate vast
+                data sets, revealing hidden patterns and trends that empower
+                businesses with strategic foresight and operational excellence.
+                Furthermore, our machine learning solutions are crafted to
+                enhance market responsiveness and dynamic adaptation, setting
+                new industry standards.
               </p>
 
               <div className="flex gap-8 items-center flex-wrap">
                 <a
                   href="/"
-                  className="font-bold text-brandPrimary hover:text-neutralBlack"
+                  className="font-bold text-xl text-brandPrimary hover:text-neutralBlack" // Increased font size
                 >
                   View Our Plans
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="17"
-                    height="11"
+                    width="20" // Increased size
+                    height="14" // Increased size
                     viewBox="0 0 17 11"
                     fill="none"
                     className="inline-block ml-2"
