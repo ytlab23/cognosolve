@@ -7,25 +7,35 @@ export const navItems = [
   { link: "Blog", path: "blog" },
 ];
 
-import blog1 from "../assets/blog1.jpg";
-import blog2 from "../assets/blog2.jpg";
-import blog3 from "../assets/blog3.jpg";
+import aidirect from "../assets/aidirect.png";
+import chatgpt from "../assets/chatgpt.png";
+import evenlabs from "../assets/evenlabs.png";
+import grumco from "../assets/grumco.png";
 
 export const blogs = [
   {
     id: 1,
     title: "Unlocking AI Insights for Business Growth",
-    image: blog1,
+    image: aidirect,
+    url: "https://aiforeveryone.com",
   },
   {
     id: 2,
     title: "Maximizing Data Analytics for Strategic Decision Making",
-    image: blog2,
+    image: chatgpt,
+    url: "https://chatgpt.com",
   },
   {
     id: 3,
     title: "Implementing Cutting-Edge Machine Learning Solutions",
-    image: blog3,
+    image: evenlabs,
+    url: "https://elevenlabs.com",
+  },
+  {
+    id: 4,
+    title: "Free AI Instagram Tools",
+    image: grumco,
+    url: "https://grum.co",
   },
 ];
 
