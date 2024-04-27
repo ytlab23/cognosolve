@@ -71,21 +71,6 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className="space-x-12 hidden lg:flex items-center">
-            <a
-              href="/"
-              className="hidden lg:flex items-center text-brandPrimary hover:text-gray900"
-            >
-              Login
-            </a>
-            <a
-              href="/"
-              className="bg-brandPrimary text-white  py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey"
-            >
-              Sign up
-            </a>
-          </div>
-
           {/* menu btn, visible on mobile screen */}
           <div className="md:hidden">
             <button

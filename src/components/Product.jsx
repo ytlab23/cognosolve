@@ -43,10 +43,6 @@ const Product = () => {
               Machine Learning Solutions. Step forward into the future of AI
               consultancy with Cognosolve.
             </p>
-
-            <a href="/" className="btn-primary">
-              Learn More
-            </a>
           </motion.div>
         </div>
       </div>
@@ -88,7 +84,6 @@ const Product = () => {
                   href="/"
                   className="font-bold text-xl text-brandPrimary hover:text-neutralBlack" // Increased font size
                 >
-                  View Our Plans
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20" // Increased size

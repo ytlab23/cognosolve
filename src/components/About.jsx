@@ -42,9 +42,6 @@ const About = () => {
               scalable, cutting-edge technology. Experience the future of AI
               consultancy with Cognosolve.
             </p>
-            <a href="/">
-              <button className="btn-primary">Learn More</button>
-            </a>
           </motion.div>
         </div>
       </div>

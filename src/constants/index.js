@@ -3,7 +3,6 @@ export const navItems = [
   { link: "Service", path: "service" },
   { link: "About", path: "about" },
   { link: "Product", path: "product" },
-  { link: "Testimonial", path: "testimonial" },
   { link: "Blog", path: "blog" },
 ];
 

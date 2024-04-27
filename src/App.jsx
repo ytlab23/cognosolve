@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 // import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Testimonials from "./components/Testimonials";
 import Product from "./components/Product";
 import Services from "./components/Services";
 
@@ -18,7 +17,6 @@ function App() {
       <About />
       <Product />
       <Blog />
-      <Testimonials />
       <Footer />
     </>
   );

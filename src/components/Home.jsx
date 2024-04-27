@@ -25,12 +25,6 @@ const Home = () => {
               <p className="text-neutralGrey text-base mb-8">
                 Elevate Your Business with Data-Driven Strategies.
               </p>
-              <a
-                href="/"
-                className="px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey inline-block"
-              >
-                Register
-              </a>
             </div>
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-12">
@@ -46,12 +40,6 @@ const Home = () => {
               <p className="text-neutralGrey text-base mb-8">
                 Transforming Businesses with Intelligent Solutions.
               </p>
-              <a
-                href="/"
-                className="px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey inline-block"
-              >
-                Register
-              </a>
             </div>
           </div>
           <div className="my-28 md:my-8 py-12 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-12">
@@ -69,13 +57,6 @@ const Home = () => {
               <p className="text-neutralGrey text-base mb-8">
                 Pioneering Innovation for Tomorrow&apos;s Challenges.
               </p>
-
-              <a
-                href="/"
-                className="px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey inline-block"
-              >
-                Register
-              </a>
             </div>
           </div>
         </Carousel>
