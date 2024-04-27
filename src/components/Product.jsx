@@ -5,16 +5,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
-import {
-  product,
-  brand,
-  company1,
-  company2,
-  company3,
-  company4,
-  company5,
-  company6,
-} from "../constants/index";
+import { product, brand } from "../constants/index";
 
 const Product = () => {
   return (
@@ -42,7 +33,7 @@ const Product = () => {
               Solution Suite
             </h2>
 
-            <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
+            <p className="md:w-3/4 text-md text-neutralGrey mb-8">
               Dive into the world of advanced AI solutions with{" "}
               <strong>Cognosolve</strong>. Specializing in tailor-made
               innovations, we offer a suite of services ranging from AI Strategy
@@ -52,7 +43,10 @@ const Product = () => {
               Machine Learning Solutions. Step forward into the future of AI
               consultancy with Cognosolve.
             </p>
-            <button className="btn-primary">Learn More</button>
+
+            <a href="/" className="btn-primary">
+              Learn More
+            </a>
           </motion.div>
         </div>
       </div>
@@ -67,66 +61,43 @@ const Product = () => {
       >
         <div className="flex flex-col md:flex-row justify-start items-center gap-8">
           <div className="md:w-1/3">
-            <img src={brand} alt="" />
+            <img src={brand} alt="" className="rounded-md" />
           </div>
 
-          {/* stats */}
-          <div className="md:w-2/3 mx-auto">
+          <div className="md:w-2/3">
             <div>
-              <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-6">
-                Working with Cognosolve has been a game-changer for our
-                business. Their AI solutions have not only streamlined our
-                operations but have also provided valuable insights that have
-                propelled our growth.The team&apos;s expertise and dedication
-                have exceeded our expectations, and we look forward to
-                continuing our partnership for years to come.
+              <p className="text-sm md:text-base text-neutralGrey mb-10 leading-6">
+                Working with Cognosolve has revolutionized our operations. Their
+                advanced AI solutions have not only streamlined our processes
+                but have also provided deep analytical insights essential for
+                strategic decision-making. Their tools have improved our market
+                trend predictions and responsiveness to industry dynamics. The
+                Cognosolve team has shown remarkable expertise and dedication.
+                Their personalized approach ensures that their solutions are
+                perfectly suited to our business needs, significantly boosting
+                our productivity and efficiency.
               </p>
 
-              <h5 className="text-brandPrimary text-xl font-semibold mb-2">
-                John Can
-              </h5>
-              <p className="text-base text-neutralGrey mb-8">
-                CEO of TechVision Inc.
-              </p>
-              <div>
-                <div className="flex gap-8 items-center flex-wrap">
-                  {[
-                    company1,
-                    company2,
-                    company3,
-                    company4,
-                    company5,
-                    company6,
-                  ].map((companyLogo, index) => (
-                    <img
-                      key={index}
-                      src={companyLogo}
-                      alt={`Company ${index + 1}`}
-                      className="cursor-pointer"
+              <div className="flex gap-8 items-center flex-wrap">
+                <a
+                  href="/"
+                  className="font-bold text-brandPrimary hover:text-neutralBlack"
+                >
+                  View Our Plans
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="11"
+                    viewBox="0 0 17 11"
+                    fill="none"
+                    className="inline-block ml-2"
+                  >
+                    <path
+                      d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.39905M15 5.39905L1 5.39905"
+                      stroke="#4CAF4F"
                     />
-                  ))}
-                  <div className="flex gap-8 items-center">
-                    <a
-                      href="/"
-                      className="font-bold text-brandPrimary hover:text-neutralBlack"
-                    >
-                      Meet all customers
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="17"
-                        height="11"
-                        viewBox="0 0 17 11"
-                        fill="none"
-                        className="inline-block ml-2"
-                      >
-                        <path
-                          d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.39905M15 5.39905L1 5.39905"
-                          stroke="#4CAF4F"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

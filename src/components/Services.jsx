@@ -4,54 +4,11 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
-import {
-  company1,
-  company2,
-  company3,
-  company4,
-  company5,
-  company6,
-  company7,
-} from "../constants/index";
-
 import { services } from "../constants/index";
 
 const Services = () => {
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="service">
-      <motion.div
-        variants={fadeIn("up", 0.2)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
-        className="text-center my-8"
-      >
-        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
-          Our Clients
-        </h2>
-        <p className="text-neutralGrey">
-          We have been working with some Fortune 500+ clients
-        </p>
-        <div className="my-12 flex flex-wrap justify-between items-center gap-8 ">
-          {[
-            company1,
-            company2,
-            company3,
-            company4,
-            company5,
-            company6,
-            company7,
-          ].map((company, index) => (
-            <img
-              key="index"
-              src={company}
-              alt={`${index + 1}`}
-              className="cursor-pointer"
-            />
-          ))}
-        </div>
-      </motion.div>
-
       {/* service cards */}
       <motion.div
         variants={fadeIn("left", 0.2)}

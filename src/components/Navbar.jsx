@@ -78,9 +78,12 @@ const Navbar = () => {
             >
               Login
             </a>
-            <button className="bg-brandPrimary text-white  py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey">
+            <a
+              href="/"
+              className="bg-brandPrimary text-white  py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGrey"
+            >
               Sign up
-            </button>
+            </a>
           </div>
 
           {/* menu btn, visible on mobile screen */}

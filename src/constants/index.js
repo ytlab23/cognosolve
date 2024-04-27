@@ -52,7 +52,7 @@ export const services = [
     image: machine,
   },
 ];
-import brand from "../assets/brand.png";
+import brand from "../assets/brand.jpg";
 import product from "../assets/product.png";
 import company1 from "../assets/icons/company1.png";
 import company2 from "../assets/icons/company2.png";
