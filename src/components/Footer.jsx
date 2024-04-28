@@ -11,16 +11,16 @@ const MyFooter = () => {
         <div className="flex flex-wrap justify-between items-start">
           <div className="flex flex-col">
             <div className="flex items-center space-x-4 mb-2">
-              <img src={logo1} alt="CognoSolve Logo" className="w-8 h-8" />
+              <img src={logo1} alt="CognoSolving Logo" className="w-8 h-8" />
               <div>
                 <a href="#" className="text-xl font-semibold">
-                  COGNOSOLVE
+                  COGNOSOLVING
                 </a>
               </div>
             </div>
             <div>
               <p className="text-xs">
-                © 2024 CognoSolve Ltd. All rights reserved
+                © 2024 cognosolving.com. All rights reserved
               </p>
               <div className="flex space-x-2 mt-8">
                 <a href="#" className="text-white">

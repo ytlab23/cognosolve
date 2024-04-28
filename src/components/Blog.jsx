@@ -25,7 +25,7 @@ const Blog = () => {
           consultation with us for an extended 100% free list of great AI tools
         </p>
         <a
-          href="mailto:contact@cognosolve.com"
+          href="mailto:contact@cognosolving.com"
           className="btn-primary py-2 px-4 bg-brandPrimary text-white rounded hover:bg-neutralDGrey"
         >
           Email Us

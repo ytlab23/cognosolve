@@ -33,14 +33,14 @@ const About = () => {
               Empowering Businesses Through AI Innovation
             </h2>
             <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
-              At <strong>Cognosolve</strong>, we specialize in pioneering AI
+              At <strong>Cognosolving</strong>, we specialize in pioneering AI
               solutions tailored to your business needs. Our services span AI
               Strategy Development, where we craft bespoke strategies for growth
               and innovation. Additionally, we provide Data Analytics &
               Insights, unlocking strategic decisions through the power of data.
               Finally, our Machine Learning Solutions ensure automation with
               scalable, cutting-edge technology. Experience the future of AI
-              consultancy with Cognosolve.
+              consultancy with Cognosolving.
             </p>
           </motion.div>
         </div>

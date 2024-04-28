@@ -29,19 +29,19 @@ const Product = () => {
             className="md:w-3/5 mx-auto"
           >
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
-              Transform Your Business with Cognosolve&apos;s Comprehensive
+              Transform Your Business with Cognosolving&apos;s Comprehensive
               Solution Suite
             </h2>
 
             <p className="md:w-3/4 text-md text-neutralGrey mb-8">
               Dive into the world of advanced AI solutions with{" "}
-              <strong>Cognosolve</strong>. Specializing in tailor-made
+              <strong>Cognosolving</strong>. Specializing in tailor-made
               innovations, we offer a suite of services ranging from AI Strategy
               Development, crafting strategies for growth and innovation, to
               Data Analytics & Insights, providing data-driven strategic
               decisions. Experience seamless automation with our cutting-edge
               Machine Learning Solutions. Step forward into the future of AI
-              consultancy with Cognosolve.
+              consultancy with Cognosolving.
             </p>
           </motion.div>
         </div>

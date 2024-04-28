@@ -52,7 +52,7 @@ const Navbar = () => {
               alt=""
               className="w-10 inline-block items-center"
             />
-            <span>COGNOSOLVE</span>
+            <span>COGNOSOLVING</span>
           </a>
 
           <ul className="md:flex space-x-12 hidden">
